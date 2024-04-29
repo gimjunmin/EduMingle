@@ -1,0 +1,18 @@
+version: latest
+
+services:
+  pocketbase:
+    image: elestio/pocketbase:latest
+    restart: always
+    user: 0:0
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./data/pb_data:/pb_data
+      - ./data/pb_migrations:/pb_migrations
+
+  frontend:
+    build: ./Frontend
+    restart: always
+    ports:
+      - "3000:3000"
