@@ -1,3 +1,3 @@
 export default function Home() {
-	return <div> hejioasjdioas jdaisodja</div>;
+	return <div className="pl-5 m-4 border border-white-600">testing</div>;
 }
