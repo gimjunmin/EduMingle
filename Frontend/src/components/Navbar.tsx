@@ -12,11 +12,11 @@ export default function Navbar() {
 					EduMingle
 				</div>
 			</div>
-			<NavBtn imName="Db" name="DashBoard" link="/dashboard" />
-			<NavBtn imName="Ma" name="My Essay" link="/editor" />
-			<NavBtn imName="List" name="List" link="/list" />
-			<NavBtn imName="Mp" name="My Page" link="/profile" />
-			<NavBtn imName="Rq" name="Request" link="/request" />
+			<NavBtn imgName="Db" name="DashBoard" link="/dashboard" />
+			<NavBtn imgName="Ma" name="My Essay" link="/editor" />
+			<NavBtn imgName="List" name="List" link="/list" />
+			<NavBtn imgName="Mp" name="My Page" link="/profile" />
+			<NavBtn imgName="Rq" name="Request" link="/request" />
 		</div>
 	);
 }

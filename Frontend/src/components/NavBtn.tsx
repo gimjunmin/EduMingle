@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-export default function NavBtns({ imName, name, link }) {
+export default function NavBtns({ imgName, name, link }: any) {
 	const [icon, setIcon] = useState("Default");
 	const [clicked, setClicked] = useState(false);
 	let path = usePathname();
@@ -26,7 +26,7 @@ export default function NavBtns({ imName, name, link }) {
 				style={{ width: "320px", height: "68px" }}
 			>
 				<Image
-					src={`/images/pngs/${imName}${icon}.png`}
+					src={`/images/pngs/${imgName}${icon}.png`}
 					alt={name}
 					width={32}
 					height={32}
