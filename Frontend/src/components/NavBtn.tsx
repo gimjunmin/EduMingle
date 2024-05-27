@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import router from "next/router";
 import React, { useEffect, useState } from "react";
 
 export default function NavBtns({ imName, name, link }) {
