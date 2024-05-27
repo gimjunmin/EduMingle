@@ -1,24 +1,24 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
+import router from "next/router";
 import React, { useEffect, useState } from "react";
 
 export default function NavBtns({ imName, name, link }) {
 	const [icon, setIcon] = useState("Default");
 	const [clicked, setClicked] = useState(false);
-	const router = useRouter();
+	let path = usePathname();
 
 	useEffect(() => {
-		// 현재 경로가 링크와 일치하는지 확인하여 상태 업데이트
-		if (router.pathname === link) {
+		if (path === link) {
 			setIcon("Selected");
 			setClicked(true);
 		} else {
 			setIcon("Default");
 			setClicked(false);
 		}
-	}, [router.pathname, link]);
+	}, [path, link]);
 
 	return (
 		<Link href={link}>
