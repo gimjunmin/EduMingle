@@ -12,7 +12,7 @@ services:
       - ./data/pb_migrations:/pb_migrations
 
   frontend:
-    build: ./frontend
+    build: ./Frontend
     restart: always
     ports:
       - "3000:3000"
