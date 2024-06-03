@@ -14,9 +14,18 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 			colors: {
-				navBgColor: "#242C2F", // navbar 배경색
 				navSelectColor: "#364247", // navbar 호버링 색
-				iconColor: "#62D1C3", // 아이콘 색
+				sub1: "#33568E",
+				sub2: "#F9733A",
+				sub3: "#34515B",
+				point1: "#62D1C3", // 아이콘 색
+				point2: "#01A490",
+				gray1: "#F4F6F7",
+				gray2: "#DEE3E6",
+				gary3: "#BDC6CA",
+				gray4: "#65767D",
+				gray5: "#364247",
+				gray6: "#242C2F",
 			},
 			fontFamily: {
 				pretendard: ["Pretendard", "sans-serif"],
