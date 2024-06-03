@@ -2,13 +2,13 @@ import NavBtn from "./NavBtn";
 
 export default function Navbar() {
 	return (
-		<div className="bg-navBgColor" style={{ width: "360px", height: "1080px" }}>
+		<div className="h-screen bg-gray6" style={{ width: "360px" }}>
 			<div
 				className="flex items-center justify-start pl-4 h-18"
 				style={{ width: "360px", height: "68px" }}
 			>
-				<div className="w-8 h-8 bg-iconColor rounded-full"></div>
-				<div className="ml-2 font-pretendard text-2xl font-bold text-iconColor">
+				<div className="w-8 h-8 bg-point1 rounded-full"></div>
+				<div className="ml-2 font-pretendard text-2xl font-bold text-point1">
 					EduMingle
 				</div>
 			</div>
