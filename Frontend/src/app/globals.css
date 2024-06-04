@@ -23,6 +23,10 @@
 	font-style: normal;
 }
 
+html,
 body {
 	font-family: "Pretendard", sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
