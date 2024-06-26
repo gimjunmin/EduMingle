@@ -22,8 +22,8 @@ export default function NavBtns({ imgName, name, link }: any) {
 	return (
 		<Link href={link}>
 			<div
-				className={`flex items-center justify-start pl-8 rounded-[8px] ${clicked ? "bg-navSelectColor" : "hover:bg-navSelectColor"} cursor-pointer`}
-				style={{ width: "320px", height: "68px" }}
+				className={`flex items-center justify-start pl-4 rounded-[8px] ${clicked ? "bg-navSelectColor" : "hover:bg-navSelectColor"} cursor-pointer`}
+				style={{ width: "320px", height: "52px" }}
 			>
 				<Image
 					src={`/images/pngs/${imgName}${icon}.png`}

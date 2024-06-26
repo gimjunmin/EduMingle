@@ -26,6 +26,7 @@ const config: Config = {
 				gray4: "#65767D",
 				gray5: "#364247",
 				gray6: "#242C2F",
+				sidebar: "#FCFCFC",
 			},
 			fontFamily: {
 				pretendard: ["Pretendard", "sans-serif"],

@@ -15,7 +15,7 @@ export default function HeaderBtn() {
 				width={32}
 				height={32}
 			/>
-			<div className="rounded-full overflow-hidden w-8 h-8">
+			<div className="rounded-full overflow-hidden w-8 h-8 ml-2">
 				<Image src="/images/jpgs/test.JPG" alt="test" width={32} height={32} />
 			</div>
 		</div>

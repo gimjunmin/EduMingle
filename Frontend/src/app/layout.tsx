@@ -18,7 +18,7 @@ export default function RootLayout({
 			<body className="font-pretendard">
 				<div className="flex">
 					<Navbar />
-					<div>
+					<div className="flex flex-col w-full ml-[360px]">
 						<Header />
 						<main>{children}</main>
 					</div>
