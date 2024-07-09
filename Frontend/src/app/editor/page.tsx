@@ -1,3 +1,3 @@
 export default function Editor() {
-	return <div>My Essay page!!!</div>;
+  return <div>My Essay page!!!</div>;
 }
