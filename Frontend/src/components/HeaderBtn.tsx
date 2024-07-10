@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HeaderBtn() {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center mr-12">
       <Image
         src="/images/pngs/MessageDefault.png"
         alt="MessageBtn"

@@ -28,6 +28,9 @@ const config: Config = {
         gray5: '#364247',
         gray6: '#242C2F',
         sidebar: '#FCFCFC',
+        fontgray: '#717171', // grayfont in box
+        graybox: '#EFEFEF', // graybox
+        bthblue: '#1366DE', //button color
       },
       fontFamily: {
         pretendard: ['Pretendard', 'sans-serif'],
