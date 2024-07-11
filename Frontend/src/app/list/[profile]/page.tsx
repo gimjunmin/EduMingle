@@ -6,12 +6,14 @@ export default function Profile() {
   return (
     <div>
       <div className="bg-sub3 h-32 w-full" />
-      <div className="flex flex-row">
-        <div className="ml-32" style={{ width: '850px' }}>
+      <div className="flex justify-center">
+        <div style={{ width: '850px' }}>
           <ConCard />
           <ConTab />
         </div>
-        <CostCard />
+        <div className="ml-8">
+          <CostCard />
+        </div>
       </div>
     </div>
   );
