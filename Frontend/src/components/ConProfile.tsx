@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import confirm from '../../public/images/pngs/confirm.png';
 import intro from '../../public/documents/introduce.js';
+import Link from 'next/link';
 
 export default function ConProfile() {
   return (
     <div
-      className="flex items-center justify-center rounded-lg border"
+      className="flex items-center justify-center rounded-lg border-2"
       style={{ width: '346px', height: '392px' }}
     >
       <div
@@ -26,7 +27,7 @@ export default function ConProfile() {
           style={{ width: '306px', height: '178px' }}
         >
           <div className="flex items-center justify-center">
-            <div className="font-bold text-xl text-lg">Min Sung Kim</div>
+            <div className="font-bold text-lg">Min Sung Kim</div>
             <Image
               className="ml-1"
               alt="confirm_img"
@@ -37,7 +38,7 @@ export default function ConProfile() {
           <div className="font-normal text-sm text-gray-400">
             Harvard University
           </div>
-          <div className="flex justify-start mt-2">
+          <div className="flex justify-start">
             <span className="text-sub2 mr-1">★</span>
             <span className="text-sub2 mr-1">★</span>
             <span className="text-sub2 mr-1">★</span>
@@ -45,21 +46,22 @@ export default function ConProfile() {
             <span className="text-gray2 mr-1">★</span>
           </div>
           <div
-            className="flex text-sm font-normal bg-graybox rounded-lg text-fontgray items-center justify-center"
+            className="flex text-sm font-normal bg-graybox rounded-lg text-fontgray items-center justify-center mt-2"
             style={{ width: '152px', height: '32px' }}
           >
             Computer Science
           </div>
-          <div className="font-normal text-sm text-fontgray mt-2 text-center">
+          <div className="font-normal text-sm text-fontgray mt-4 text-center">
             {intro}
           </div>
         </div>
-        <button
-          className="bg-bthblue text-white rounded-lg font-normal"
+        <Link
+          href={'/list/1'}
+          className="bg-bthblue text-white rounded-lg font-normal flex items-center justify-center"
           style={{ width: '306px', height: '32px' }}
         >
           프로필 보기
-        </button>
+        </Link>
       </div>
     </div>
   );
