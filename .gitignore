@@ -1,7 +1,0 @@
-frontend/.next
-frontend/node_modules
-frontend/package-lock.json
-data
-node_modules/
-
-package-lock.json
