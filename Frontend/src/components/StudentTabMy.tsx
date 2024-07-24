@@ -31,5 +31,5 @@ export default function StudentTabMy() {
             </div>
         </div>
     )
-}
+};
 
