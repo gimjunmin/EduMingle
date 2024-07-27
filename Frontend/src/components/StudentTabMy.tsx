@@ -11,7 +11,7 @@ export default function StudentTabMy() {
     const tabs = ['기본정보', '교외활동', '성적추이', '정산내역'];
     return (
         <div>
-            <div className="flex justify-center items-center mt-4">
+            <div className="flex justify-center items-center border-b-2 mt-4">
                 {tabs.map((element) => (
                     <button
                         key={element}
@@ -23,7 +23,7 @@ export default function StudentTabMy() {
                     </button>
                 ))}
             </div>
-            <div>
+            <div className="mt-4">
                 {tab === '기본정보' && <StudentInt />}
                 {tab === '교외활동' && <StudentOut />}
                 {tab === '성적추이' && <StudentGrade />}
