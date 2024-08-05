@@ -1,5 +1,5 @@
-import StudentCardMy from '@/components/StudentCardMy';
-import StudentTabMy from '@/components/StudentTabMy';
+import StudentCardMy from '@/components/studentComponents/StudentCardMy';
+import StudentTabMy from '@/components/studentComponents/StudentTabMy';
 
 export default function Profile() {
   return (
