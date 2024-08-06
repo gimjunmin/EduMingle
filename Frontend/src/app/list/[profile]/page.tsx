@@ -1,6 +1,6 @@
-import ConCard from '@/components/ConCard';
-import ConTab from '@/components/ConTab';
-import CostCard from '@/components/CostCard';
+import ConCard from '@/components/consultantComponents/ConCard';
+import ConTab from '@/components/consultantComponents/ConTab';
+import CostCard from '@/components/consultantComponents/CostCard';
 
 export default function Profile() {
   return (

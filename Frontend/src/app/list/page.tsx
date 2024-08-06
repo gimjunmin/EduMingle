@@ -1,4 +1,4 @@
-import ConProfile from '@/components/ConProfile';
+import ConProfile from '@/components/consultantComponents/ConProfile';
 
 export default function List() {
   return (
