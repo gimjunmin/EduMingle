@@ -1,0 +1,19 @@
+{
+    "schoolList": [
+        {
+            "schoolName": "Harvard University"
+        },
+        {
+            "schoolName": "Rice University"
+        },
+        {
+            "schoolName": "University of California, Los Angeles"
+        },
+        {
+            "schoolName": "SKKU University"
+        },
+        {
+            "schoolName": "Brigham Young University"
+        }
+    ]
+}
