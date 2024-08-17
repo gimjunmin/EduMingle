@@ -16,28 +16,30 @@ interface IWrapperProps {
 interface IBodyProps {
     children: ReactNode;
     isPage?: boolean;
+    isHidden?: boolean; // isHidden 추가
 }
 
 interface IHeaderLProps {
     children: ReactNode;
+    isHidden?: boolean; // isHidden 추가
 }
 
 const Wrapper = ({ children }: IWrapperProps) => (
     <div>{children}</div>
 );
 
-const Body = ({ children, isPage }: IBodyProps) => {
+const Body = ({ children, isHidden }: IBodyProps) => {
     return (
-        <div className="ml-[360px]">{children}</div>
+        <div className={isHidden ? "" : "ml-[360px]"}>{children}</div>
     );
 };
 
-const HeaderL = ({ children }: IHeaderLProps) => (
-    <div className="ml-[360px]">{children}</div>
+const HeaderL = ({ children, isHidden }: IHeaderLProps) => (
+    <div className={isHidden ? "" : "ml-[360px]"}>{children}</div>
 );
 
-const HIDDEN_HEADER = ["/"];
-const HIDDEN_NAVBAR = ["/"];
+const HIDDEN_HEADER = ["/", "/editor"];
+const HIDDEN_NAVBAR = ["/", "/editor"];
 
 export default function Layout({ children }: ILayoutProps) {
     const pathname = usePathname();
@@ -53,8 +55,8 @@ export default function Layout({ children }: ILayoutProps) {
     return (
         <Wrapper>
             {!isHiddenNavbar && <Navbar />}
-            <HeaderL>{!isHiddenHeader && <Header />}</HeaderL>
-            <Body>{children}</Body>
+            <HeaderL isHidden={isHiddenHeader}>{!isHiddenHeader && <Header />}</HeaderL>
+            <Body isHidden={isHiddenNavbar}>{children}</Body>
         </Wrapper>
     );
 }

@@ -1,32 +1,44 @@
 {
     "essayInfo": [
-        {
+        {   
+            "Version": "Draft Ver.1",
             "WrittenDate": "2024-08-11",
+            "RecentEdit": "36 hours ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near?Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         },
         {
+            "Version": "Draft Ver.2",
             "WrittenDate": "2024-08-12",
+            "RecentEdit": "34 hours ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near?Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         },
         {
+            "Version": "Draft Ver.3",
             "WrittenDate": "2024-08-13",
+            "RecentEdit": "1 hours ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near?Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         },
         {
+            "Version": "Draft Ver.1",
             "WrittenDate": "2024-08-14",
+            "RecentEdit": "2 hours ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near?Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         },
         {
+            "Version": "Draft Ver.2",
             "WrittenDate": "2024-08-15",
+            "RecentEdit": "23 hours ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near?Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         },
         {
+            "Version": "Draft Ver.3",
             "WrittenDate": "2024-08-13",
+            "RecentEdit": "30 mins ago",
             "Title": "Why do birds suddenly appear?",
             "Detail": "Every time you are near? Just like me, they long to be Close to you Why do stars fall down from the sky Every time you walk"
         }

@@ -6,8 +6,8 @@ import StudentDashProfile from "@/components/studentComponents/StudentDashProfil
 
 export default function Dashboard() {
   return (
-    <div className="flex mt-14 justify-center">
-      <div className="">
+    <div className="flex my-14 justify-center">
+      <div>
         <StudentDashProfile />
         <div className="mt-9">
           <EssayProgress />

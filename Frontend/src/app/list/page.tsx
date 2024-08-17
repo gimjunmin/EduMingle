@@ -2,7 +2,7 @@ import ConProfile from '@/components/consultantComponents/ConProfile';
 
 export default function List() {
   return (
-    <div className="flex justify-center mt-20">
+    <div className="flex justify-center my-20 mx-4">
       <div className="space-y-8" style={{ width: '1480px' }}>
         <div>
           <div className="font-bold text-xl text-fontgray mb-4">선배리스트</div>

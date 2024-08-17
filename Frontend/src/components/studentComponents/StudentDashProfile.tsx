@@ -6,7 +6,7 @@ export default function StudentDashProfile() {
         <div>
             <div className='text-lg mb-4'>내 프로필</div>
             <div className="bg-[#F4F5F7] mb-[8px] rounded-lg flex flex-row justify-center items-center gap-4 pr-6 " style={{ width: '346px', height: '124px' }}>
-                <div className='relative w-[88px] h-[88px]'>
+                <div className='relative z-0 w-[88px] h-[88px]'>
                     <Image src="/images/jpgs/test.JPG" alt="studentimg" layout="fill" objectFit="cover" className='rounded-full' />
                 </div>
                 <div>
