@@ -6,7 +6,7 @@ import StudentDashProfile from "@/components/studentComponents/StudentDashProfil
 
 export default function Dashboard() {
   return (
-    <div className="flex my-14 justify-center">
+    <div className="flex mt-12 justify-center sm: ml-40">
       <div>
         <StudentDashProfile />
         <div className="mt-9">
@@ -15,7 +15,7 @@ export default function Dashboard() {
       </div>
       <div className="ml-20">
         <RecentDraftList />
-        <div className="mt-9 flex flex-row gap-7">
+        <div className="mt-9 mb-12 flex flex-row gap-7">
           <ContactConList />
           <RecentNoti />
         </div>
