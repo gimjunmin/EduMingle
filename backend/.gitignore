@@ -4,6 +4,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# package.json관련
+package-lock.json
+
 # 환경 변수 파일
 .env
 
