@@ -1,3 +1,12 @@
-export default function Editor() {
-	return <div>My Essay page!!!</div>;
+import React from "react";
+import LoginModal from "@/components/loginModal";
+
+const Editor = () => {
+  return (
+  <div>
+    <LoginModal />
+  </div>
+  );
 }
+
+export default Editor;

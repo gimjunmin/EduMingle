@@ -1,5 +1,5 @@
 const express = require("express");
-const { createTask } = require("../../controller/task.controller");
+const { createTask } = require("../controllers/task.controller");
 const router = express.Router();
 
 router.get("/");

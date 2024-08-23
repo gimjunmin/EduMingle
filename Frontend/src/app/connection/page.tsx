@@ -1,3 +1,3 @@
 export default function Connection() {
-	return <div>Connection Page</div>;
+  return <div>Connection Page</div>;
 }

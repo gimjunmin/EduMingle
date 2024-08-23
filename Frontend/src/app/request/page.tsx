@@ -1,3 +1,9 @@
+import React from "react";
+
 export default function Request() {
-	return <div>Request page!!!</div>;
+  return (
+    <div>
+      Request
+    </div>
+  )
 }
