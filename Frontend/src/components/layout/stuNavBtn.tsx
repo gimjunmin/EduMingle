@@ -1,10 +1,11 @@
 'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 
-export default function NavBtns({ imgName, name, link }: any) {
+export default function stuNavBtns({ imgName, name, link }: any) {
   const [icon, setIcon] = useState('Default');
   const [clicked, setClicked] = useState(false);
   const path = usePathname();

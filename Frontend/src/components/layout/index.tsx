@@ -3,7 +3,7 @@
 import { usePathname, useSearchParams } from "next/navigation";
 import { ReactNode } from "react";
 import Header from "./Header";
-import Navbar from "./Navbar";
+import Navbar from "./stuNavbar";
 
 interface ILayoutProps {
     children: ReactNode;
